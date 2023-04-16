@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A9B90600-B260-4AD3-95AE-2D3077F664E3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B62657F-1B65-421A-8049-4AC8B91509D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/BaseComponent/BaseUserBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "userImageDidClick()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA2C12F3-3EEA-46BB-A861-10F575298C5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/ModalProfile/ModalProfileInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "setNewUserData(tag:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA2C12F3-3EEA-46BB-A861-10F575298C5E - cccb89169f0313cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMangaReader.ModalProfileInteractor.setNewUserData(tag: MusicMangaReader.AvatarImage) -&gt; ()"
+                  moduleName = "MusicMangaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrakupcova2.0/Desktop/Intership/MusicMangaReader/MusicMangaReader/Flows/ModalProfile/ModalProfileInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1346">
+               </Location>
+               <Location
+                  uuid = "BA2C12F3-3EEA-46BB-A861-10F575298C5E - 120240b8d42f7c82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in MusicMangaReader.ModalProfileInteractor.setNewUserData(tag: MusicMangaReader.AvatarImage) -&gt; ()"
+                  moduleName = "MusicMangaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrakupcova2.0/Desktop/Intership/MusicMangaReader/MusicMangaReader/Flows/ModalProfile/ModalProfileInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C5482DD-6AA7-41F2-844E-799EE732FD05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/Registration/RegInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "registrationRequest(email:passward:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C5482DD-6AA7-41F2-844E-799EE732FD05 - a08265bdf9f375e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; () in MusicMangaReader.RegInteraction.registrationRequest(email: Swift.String, passward: Swift.String) -&gt; ()"
+                  moduleName = "MusicMangaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrakupcova2.0/Desktop/Intership/MusicMangaReader/MusicMangaReader/Flows/Registration/RegInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "906">
+               </Location>
+               <Location
+                  uuid = "5C5482DD-6AA7-41F2-844E-799EE732FD05 - 8ec8fc16fb494e3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; () in MusicMangaReader.RegInteraction.registrationRequest(email: Swift.String, passward: Swift.String) -&gt; ()"
+                  moduleName = "MusicMangaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrakupcova2.0/Desktop/Intership/MusicMangaReader/MusicMangaReader/Flows/Registration/RegInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "286">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC10FF4A-CBC2-42BE-A412-495E36928FB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/Dictionary/AddWordController/AddWordViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D6C63D5-DBBD-474E-B4E4-DD7569C70234"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/Dictionary/DictionaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "addNewWord(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CFD38BD-AB5B-4E4D-99C1-5A797200A625"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMangaReader/Flows/Dictionary/DictionaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
