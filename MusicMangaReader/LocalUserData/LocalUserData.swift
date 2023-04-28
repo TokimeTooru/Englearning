@@ -8,7 +8,7 @@ struct UserModel: Codable {
     var wordMemorized: Int
     var level: Int
     var currentExp: Float
-    var adddedWords: [Word]
+    var adddedWords: [Word]?
 }
 
 struct Word: Codable {
