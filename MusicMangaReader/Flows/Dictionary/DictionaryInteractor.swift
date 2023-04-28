@@ -43,7 +43,7 @@ final class DictionaryInteractor: DictionaryInteractorProtocol, DictionaryIntera
     func removeWord(wordId: Int, indexPath: IndexPath) {
         DispatchQueue.global().async {
             guard var model = LocalUserData.share.get else { return }
-            model.adddedWords = model.adddedWords.filter { $0.wordId != wordId}
+            model.adddedWords = model.adddedWords?.filter { $0.wordId != wordId}
             LocalUserData.share.set = model
             self.networkManager.setNewUserData(model: model) {_ in}
             DispatchQueue.main.async {

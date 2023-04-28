@@ -2,7 +2,7 @@ import Foundation
 
 
 protocol DictionaryPresenterProtocol {
-    func prepearDictionaryModel(model: [Word])
+    func prepearDictionaryModel(model: [Word]?)
     func addNewWord(word: DictionaryPresenter.DictionaryModel)
     func removeWord(indexPath: IndexPath)
 }
@@ -24,13 +24,17 @@ final class DictionaryPresenter: DictionaryPresenterProtocol {
     }
     var view: DictionaryViewControllerProtocol?
 
-    func prepearDictionaryModel(model: [Word]) {
+    func prepearDictionaryModel(model: [Word]?) {
         var dictionary: [DictionaryKey: [DictionaryModel]] = [
             .new: [],
             .learned: [],
             .poorly: [],
             .process: []
         ]
+        guard let model else {
+            view?.setDictionaryModel(dictionary: dictionary)
+            return
+        }
         for word in model {
             let dictWord: DictionaryModel = .init(
                 enWord: word.enWord,
